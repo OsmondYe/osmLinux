@@ -23,8 +23,6 @@ echo -n "Enter your name:" ; read V_name ; echo "Hello, $V_name"
 unset V_name  ; echo "after unset V_name, it value is:$V_name"
 
 
-
-
 # simple 
 echo "study shell" ; echo hello there   # use ;  to write multi cmd in one line
 
