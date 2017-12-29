@@ -1,0 +1,22 @@
+This is the first 001 basic sh-scripti
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+current date is: Mon Dec 18 15:37:16 CST 2017
+User:osmond
+Uid:1000
+LogName:osmond
+Home:/home/osmond
+HostName:ubuntu
+HostType:x86_64
+MachineType:x86_64-pc-linux-gnu
+Lang:en_US.UTF-8
+language:en_US
+pwd:/home/osmond/osmStudy/sh_proj
+old_pwd:
+IFS:
+path:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+shell:/bin/bash
+shell_level:5
+JAVA_HOME:/usr/lib/jvm/java-8-oracle
+ps1:
+PS2:
+ps4:+
