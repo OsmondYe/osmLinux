@@ -1,0 +1,125 @@
+Fri Apr 20 18:48:12 UTC 2018
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  1.1 185272  5952 ?        Ss   Mar09   0:43 /lib/systemd/systemd --system --deserialize 21
+root         2  0.0  0.0      0     0 ?        S    Mar09   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Mar09   0:15 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Mar09   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Mar09   0:53 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Mar09   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Mar09   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    Mar09   0:18 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    Mar09   0:00 [kdevtmpfs]
+root        12  0.0  0.0      0     0 ?        S<   Mar09   0:00 [netns]
+root        13  0.0  0.0      0     0 ?        S<   Mar09   0:00 [perf]
+root        14  0.0  0.0      0     0 ?        S    Mar09   0:00 [khungtaskd]
+root        15  0.0  0.0      0     0 ?        S<   Mar09   0:00 [writeback]
+root        16  0.0  0.0      0     0 ?        SN   Mar09   0:00 [ksmd]
+root        17  0.0  0.0      0     0 ?        S<   Mar09   0:00 [crypto]
+root        18  0.0  0.0      0     0 ?        S<   Mar09   0:00 [kintegrityd]
+root        19  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        20  0.0  0.0      0     0 ?        S<   Mar09   0:00 [kblockd]
+root        21  0.0  0.0      0     0 ?        S<   Mar09   0:00 [ata_sff]
+root        22  0.0  0.0      0     0 ?        S<   Mar09   0:00 [md]
+root        23  0.0  0.0      0     0 ?        S<   Mar09   0:00 [devfreq_wq]
+root        27  0.0  0.0      0     0 ?        S    Mar09   0:48 [kswapd0]
+root        28  0.0  0.0      0     0 ?        S<   Mar09   0:00 [vmstat]
+root        29  0.0  0.0      0     0 ?        S    Mar09   0:00 [fsnotify_mark]
+root        30  0.0  0.0      0     0 ?        S    Mar09   0:00 [ecryptfs-kthrea]
+root        46  0.0  0.0      0     0 ?        S<   Mar09   0:00 [kthrotld]
+root        47  0.0  0.0      0     0 ?        S<   Mar09   0:00 [acpi_thermal_pm]
+root        48  0.0  0.0      0     0 ?        S    Mar09   0:00 [vballoon]
+root        49  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        50  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        51  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        52  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        53  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        54  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        55  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        56  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        57  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root        58  0.0  0.0      0     0 ?        S    Mar09   0:00 [scsi_eh_0]
+root        59  0.0  0.0      0     0 ?        S<   Mar09   0:00 [scsi_tmf_0]
+root        60  0.0  0.0      0     0 ?        S    Mar09   0:00 [scsi_eh_1]
+root        61  0.0  0.0      0     0 ?        S<   Mar09   0:00 [scsi_tmf_1]
+root        67  0.0  0.0      0     0 ?        S<   Mar09   0:00 [ipv6_addrconf]
+root        80  0.0  0.0      0     0 ?        S<   Mar09   0:00 [deferwq]
+root        81  0.0  0.0      0     0 ?        S<   Mar09   0:00 [charger_manager]
+root       118  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root       119  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root       120  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root       121  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root       122  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root       123  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root       124  0.0  0.0      0     0 ?        S    Mar09   0:00 [scsi_eh_2]
+root       125  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root       126  0.0  0.0      0     0 ?        S<   Mar09   0:00 [scsi_tmf_2]
+root       128  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root       129  0.0  0.0      0     0 ?        S<   Mar09   0:00 [kpsmoused]
+root       486  0.0  0.0      0     0 ?        S<   Mar09   0:00 [raid5wq]
+root       516  0.0  0.0      0     0 ?        S<   Mar09   0:00 [bioset]
+root       541  0.0  0.0      0     0 ?        S    Mar09   0:33 [jbd2/vda1-8]
+root       542  0.0  0.0      0     0 ?        S<   Mar09   0:00 [ext4-rsv-conver]
+root       604  0.0  0.0      0     0 ?        S<   Mar09   0:00 [iscsi_eh]
+root       606  0.0  0.0      0     0 ?        S<   Mar09   0:04 [kworker/0:1H]
+root       619  0.0  0.0      0     0 ?        S<   Mar09   0:00 [ib_addr]
+root       624  0.0  0.0      0     0 ?        S<   Mar09   0:00 [ib_mcast]
+root       626  0.0  0.0      0     0 ?        S<   Mar09   0:00 [ib_nl_sa_wq]
+root       628  0.0  0.0      0     0 ?        S<   Mar09   0:00 [ib_cm]
+root       629  0.0  0.0      0     0 ?        S<   Mar09   0:00 [iw_cm_wq]
+root       631  0.0  0.0      0     0 ?        S<   Mar09   0:00 [rdma_cm]
+root       638  0.0  0.5  27708  2768 ?        Ss   Mar09   4:56 /lib/systemd/systemd-journald
+root       643  0.0  0.0      0     0 ?        S    Mar09   0:00 [kauditd]
+root       668  0.0  0.0 102968   432 ?        Ss   Mar09   0:00 /sbin/lvmetad -f
+root       774  0.0  0.0      0     0 ?        S<   Mar09   0:00 [kvm-irqfd-clean]
+root      1264  0.0  0.0   5220   116 ?        Ss   Mar09   1:44 /sbin/iscsid
+root      1265  0.0  0.7   5720  3516 ?        S<Ls Mar09   8:17 /sbin/iscsid
+root      1272  0.0  0.5 652916  2648 ?        Ssl  Mar09   0:28 /usr/bin/lxcfs /var/lib/lxcfs/
+root      1275  0.0  0.2   4396  1244 ?        Ss   Mar09   0:00 /usr/sbin/acpid
+daemon    1277  0.0  0.3  26044  1680 ?        Ss   Mar09   0:00 /usr/sbin/atd -f
+root      1285  0.0  0.4  27728  2288 ?        Ss   Mar09   0:05 /usr/sbin/cron -f
+root      1295  0.0  0.6 274488  3300 ?        Ssl  Mar09   2:34 /usr/lib/accountsservice/accounts-daemon
+root      1298  0.0  0.5  65508  2892 ?        Ss   Mar09   1:16 /usr/sbin/sshd -D
+syslog    1301  0.0  0.6 256392  3044 ?        Ssl  Mar09   1:23 /usr/sbin/rsyslogd -n
+message+  1315  0.0  0.6  43012  3160 ?        Ss   Mar09   0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1329  0.0  0.9  30232  4588 ?        Ss   Mar09   0:03 /lib/systemd/systemd-logind
+root      1356  0.0  0.4 277176  2056 ?        Ssl  Mar09   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1422  0.0  0.5  65832  2924 tty1     Ss   Mar09   0:00 /bin/login --
+root      1426  0.0  0.3  14472  1724 ttyS0    Ss+  Mar09   0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+tomcat8   1449  0.1 16.9 2115376 84808 ?       Sl   Mar09  69:31 /usr/lib/jvm/default-java/bin/java -Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.awt.headless=true -Xmx128m -XX:+UseConcMarkSweepGC -Djava.endorsed.dirs=/usr/share/tomcat8/endorsed -classpath /usr/share/tomcat8/bin/bootstrap.jar:/usr/share/tomcat8/bin/tomcat-juli.jar -Dcatalina.base=/var/lib/tomcat8 -Dcatalina.home=/usr/share/tomcat8 -Djava.io.tmpdir=/tmp/tomcat8-tomcat8-tmp org.apache.catalina.startup.Bootstrap start
+osmond    1496  0.0  0.3  45248  1916 ?        Ss   Mar09   0:00 /lib/systemd/systemd --user
+osmond    1498  0.0  0.4  61520  2216 ?        S    Mar09   0:00 (sd-pam)
+root      1643  0.0  3.9  63380 19584 ?        S    Mar09  39:46 python3.5 server.py a
+systemd+  9812  0.0  0.5 100324  2512 ?        Ssl  18:04   0:00 /lib/systemd/systemd-timesyncd
+root     10897  0.0  0.0      0     0 ?        S    Apr19   0:01 [kworker/u2:0]
+root     14563  0.0  1.0  18908  5068 pts/0    Ss+  18:04   0:00 /usr/bin/dpkg --status-fd 39 --configure libapt-inst2.0:amd64 apt-utils:amd64 shim:amd64 grub-common:amd64 grub-efi-amd64-bin:amd64 grub2-common:amd64 shim-signed:amd64 grub-efi-amd64:amd64 grub-efi-amd64-signed:amd64 libpam-systemd:amd64 udev:amd64 mdadm:amd64 libklibc:amd64 klibc-utils:amd64 friendly-recovery:all initramfs-tools-bin:amd64 initramfs-tools-core:all initramfs-tools:all uuid-runtime:amd64 dnsmasq-base:amd64 lxd-client:amd64 lxcfs:amd64 squashfs-tools:amd64 lxd:amd64 libpython2.7-stdlib:amd64 python2.7:amd64 libpython-stdlib:amd64 python:amd64 libapparmor-perl:amd64 apparmor:amd64 snapd:amd64 ubuntu-core-launcher:amd64 python-apt-common:all python3-apt:amd64 update-notifier-common:all distro-info-data:all iproute2:amd64 isc-dhcp-client:amd64 isc-dhcp-common:amd64 libgnutls30:amd64 libgnutls-openssl27:amd64 resolvconf:all ubuntu-minimal:amd64 apt-transport-https:amd64 hdparm:amd64 libnuma1:amd64 libparted2:amd64 parted:amd64 libpci3:amd64 pciutils:amd64 libplymouth4:amd64 lshw:amd64 plymouth:amd64 plymouth-theme-ubuntu-text:amd64 ubuntu-standard:amd64 xdg-user-dirs:amd64 python3-problem-report:all python3-apport:all apport:all libavahi-common-data:amd64 libavahi-common3:amd64 libavahi-client3:amd64 sosreport:amd64 cloud-guest-utils:all cloud-initramfs-copymods:all cloud-initramfs-dyn-netconf:all grub-legacy-ec2:all open-vm-tools:amd64 overlayroot:all ubuntu-server:amd64 unattended-upgrades:all
+root     16800  0.0  0.7  42224  3560 ?        Ss   18:04   0:00 /lib/systemd/systemd-udevd
+root     18878  0.0  0.0  13372   164 ?        Ss   18:04   0:00 /sbin/mdadm --monitor --pid-file /run/mdadm/monitor.pid --daemonise --scan --syslog
+uuidd    20897  0.0  0.2  26876  1392 ?        Ss   18:04   0:00 /usr/sbin/uuidd --socket-activation
+root     21265  0.0  5.0 217236 25128 ?        Ssl  18:05   0:00 /usr/lib/snapd/snapd
+root     21593  0.0  0.1   4504   776 pts/0    S+   18:05   0:00 /bin/sh /var/lib/dpkg/info/grub-legacy-ec2.postinst configure 0.7.9-233-ge586fe35-0ubuntu1~16.04.2
+root     21595  0.0  3.3  60576 16644 pts/0    S+   18:05   0:00 /usr/bin/perl -w /usr/share/debconf/frontend /usr/sbin/update-grub-legacy-ec2 -y
+root     21601  0.0  0.7  11848  3628 pts/0    S+   18:05   0:00 /bin/bash /usr/sbin/update-grub-legacy-ec2 -y
+root     21808  0.0  0.6  11520  3244 pts/0    S+   18:05   0:00 /bin/bash /usr/bin/ucf --debconf-ok --debconf-template grub/update_grub_changeprompt_threeway --three-way /tmp/filekqOaos /var/run/grub/menu.lst
+root     21858  0.0  0.6  19244  3120 pts/0    S+   18:05   0:00 whiptail --backtitle Package configuration --title  --output-fd 11 --nocancel --default-item keep the local version currently installed --menu A new version of /boot/grub/menu.lst is available, but the version  installed currently has been locally modified.  What would you like to do about menu.lst? 18 72 7 -- install the package maintainer's version  keep the local version currently installed  show the differences between the versions  show a side-by-side difference between the versions  show a 3-way difference between available versions  do a 3-way merge between available versions (experimental)  start a new shell to examine the situation
+root     21890  0.0  0.0      0     0 ?        S    18:21   0:00 [kworker/0:0]
+root     23080  0.0  0.0      0     0 ?        S    18:45   0:00 [kworker/0:2]
+root     23081  0.0  1.3  92828  6588 ?        Ss   18:45   0:00 sshd: osmond [priv]
+osmond   23113  0.0  0.6  92828  3376 ?        S    18:45   0:00 sshd: osmond@pts/1
+osmond   23114  0.1  1.0  21376  5452 pts/1    Ss   18:45   0:00 -bash
+osmond   23181  0.0  0.6  36084  3392 pts/1    R+   18:48   0:00 ps -aux
+root     25649  0.0  0.0      0     0 ?        S<   Apr05   0:00 [xfsalloc]
+root     25650  0.0  0.0      0     0 ?        S<   Apr05   0:00 [xfs_mru_cache]
+root     28019  0.0  0.0      0     0 ?        S    17:36   0:00 [kworker/0:1]
+osmond   28075  0.0  0.9  21320  4724 tty1     S    17:50   0:00 -bash
+root     28326  0.0  0.6  51420  3056 tty1     S+   18:02   0:00 sudo apt-get upgrade
+root     28327  0.1  4.9  88332 24808 tty1     S+   18:02   0:04 apt-get upgrade
+root     28329  0.0  0.0      0     0 ?        S    Apr17   0:04 [kworker/u2:2]
+Filesystem      Size  Used Avail Use% Mounted on
+udev            236M     0  236M   0% /dev
+tmpfs            49M  5.6M   44M  12% /run
+/dev/vda1        20G  3.5G   16G  18% /
+tmpfs           245M     0  245M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           245M     0  245M   0% /sys/fs/cgroup
+/dev/vda15      105M  3.4M  102M   4% /boot/efi
+tmpfs            49M     0   49M   0% /run/user/1000
