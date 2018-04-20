@@ -3,7 +3,7 @@
 
 
 # - in order to run this script, it required X( executable ) permisson
-
+NODEREPO="node_8.x"
 
 echo "This is the first 001 basic sh-scripti"
 
@@ -11,6 +11,16 @@ OLD_PATH=$PATH
 
 echo "$OLD_PATH"
 echo -n "current date is: " ; date
+
+
+print_status() {
+echo 
+echo "## $1"
+echo
+}
+
+
+print_status "Osmond 001 for test"
 
 
 # - bash common enviroment values
@@ -83,9 +93,66 @@ echo $var8
 echo $[ 100 * 100 - ( $var7 + 1 )  ]
 
 
+DISTRO=$(lsb_release -c -s)
 
+print_status $DISTRO
 
+check_alt() {
+    if [ "X${DISTRO}" == "X${2}" ]; then
+        echo
+        echo "## You seem to be using ${1} version ${DISTRO}."
+        echo "## This maps to ${3} \"${4}\"... Adjusting for you..."
+        DISTRO="${4}"
+    fi
+}
 
+check_alt "Kali"          "sana"     "Debian" "jessie"
+check_alt "Kali"          "kali-rolling" "Debian" "jessie"
+check_alt "Sparky Linux"  "Nibiru"   "Debian" "buster"
+check_alt "MX Linux 17"   "Horizon"  "Debian" "stretch"
+check_alt "Linux Mint"    "maya"     "Ubuntu" "precise"
+check_alt "Linux Mint"    "qiana"    "Ubuntu" "trusty"
+check_alt "Linux Mint"    "rafaela"  "Ubuntu" "trusty"
+check_alt "Linux Mint"    "rebecca"  "Ubuntu" "trusty"
+check_alt "Linux Mint"    "rosa"     "Ubuntu" "trusty"
+check_alt "Linux Mint"    "sarah"    "Ubuntu" "xenial"
+check_alt "Linux Mint"    "serena"   "Ubuntu" "xenial"
+check_alt "Linux Mint"    "sonya"    "Ubuntu" "xenial"
+check_alt "Linux Mint"    "sylvia"   "Ubuntu" "xenial"
+check_alt "LMDE"          "betsy"    "Debian" "jessie"
+check_alt "elementaryOS"  "luna"     "Ubuntu" "precise"
+check_alt "elementaryOS"  "freya"    "Ubuntu" "trusty"
+check_alt "elementaryOS"  "loki"     "Ubuntu" "xenial"
+check_alt "Trisquel"      "toutatis" "Ubuntu" "precise"
+check_alt "Trisquel"      "belenos"  "Ubuntu" "trusty"
+check_alt "Trisquel"      "flidas"   "Ubuntu" "xenial"
+check_alt "BOSS"          "anokha"   "Debian" "wheezy"
+check_alt "bunsenlabs"    "bunsen-hydrogen" "Debian" "jessie"
+check_alt "bunsenlabs"    "helium"   "Debian" "stretch"
+check_alt "Tanglu"        "chromodoris" "Debian" "jessie"
+check_alt "PureOS"        "green"    "Debian" "sid"
+check_alt "Devuan"        "jessie"   "Debian" "jessie"
+check_alt "Devuan"        "ascii"    "Debian" "stretch"
+check_alt "Devuan"        "ceres"    "Debian" "sid"
+check_alt "Deepin"        "panda"    "Debian" "sid"
+check_alt "Pardus"        "onyedi"   "Debian" "stretch"
+
+print_status 'https://deb.nodesource.com/${NODEREPO}/dists/${DISTRO}/Release'
+
+print_status "https://deb.nodesource.com/${NODEREPO}/dists/${DISTRO}/Release"
+
+if [ "X${DISTRO}" == "Xdebian" ]; then
+  print_status "Unknown Debian-based distribution, checking /etc/debian_version..."
+  NEWDISTRO=$([ -e /etc/debian_version ] && cut -d/ -f1 < /etc/debian_version)
+  if [ "X${NEWDISTRO}" == "X" ]; then
+    print_status "Could not determine distribution from /etc/debian_version..."
+  else
+    DISTRO=$NEWDISTRO
+    print_status "Found \"${DISTRO}\" in /etc/debian_version..."
+  fi
+fi
+
+print_status "Confirming \"${DISTRO}\" is supported..."
 
 
 

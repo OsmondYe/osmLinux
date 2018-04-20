@@ -41,8 +41,7 @@ echo =======
 #
 #curl $url > rt-login.txt
 #xmllint --html  rt-login.txt
-cl
-curl -v -X POST --data "$loginJsonStr" $url --trace -
+curl -v -X POST --data "$loginJsonStr" $url --trace 
 
 
 
