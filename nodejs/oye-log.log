@@ -2,7 +2,7 @@
 	-> must be installed with command npm install -g express
 
 -find a good book to trace it
-
+-use git config credential.helper store to avoid input user/pass each time when git pushZZ
 
 
 
