@@ -1,3 +1,5 @@
 # This project is all for osmond study Linux
 
 # every day should have update
+
+# config git password
