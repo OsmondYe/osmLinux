@@ -1,26 +1,34 @@
 # this is make
 
 PROGRAMME_NAME=hello.exe
-C_FILE= hello.c mylib.c
-HEADERS = mylib.h
-OBJS= hello.o mylib.o
+
+C_FILE= hello.c
+
+HEADERS = \
+	"../lib/" 
+
+LIBRARIES = \
+	"../lib/"
+
+OBJS= hello.o
+
 EXE=$(PROGRAMME_NAME)
 
 #############
-output : $(OBJS)
-	gcc hello.o mylib.o -o $(EXE)
+link : $(OBJS)
+	gcc -ggdb3 hello.o -o $(EXE)  -L $(LIBRARIES) -static -lerr
 
 hello.o: hello.c
-	gcc -c hello.c
-
-mylib.o: mylib.c $(HEADERS)
-	gcc -c mylib.c
+	gcc -I $(HEADERS) -c hello.c
 
 all: output
 
 
-run: all
+run: link
 	./hello.exe
+
+debug: all
+	gdb hello.exe 
 
 # using .PHONY avoid clean is a file name
 .PHONY : clean

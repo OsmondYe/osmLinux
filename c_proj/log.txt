@@ -1,0 +1,4 @@
+common_lib:
+	error_handler.a 	// static library
+
+

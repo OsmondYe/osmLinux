@@ -3,3 +3,7 @@
 # every day should have update
 
 # config git password
+
+# 2/25/2020
+	learn basic gcc programming
+	gcc, make, gdb
