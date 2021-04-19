@@ -7,3 +7,8 @@
 # 2/25/2020
 	learn basic gcc programming
 	gcc, make, gdb
+
+# 2021/04/19{
+	# continue this folder
+	
+}
