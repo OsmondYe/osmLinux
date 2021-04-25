@@ -1,0 +1,14 @@
+# Linux VFS
+
+
+# context sturct{
+	super_block   
+	inode
+	file
+	file_system_type
+}
+
+# super_block{
+	
+}
+

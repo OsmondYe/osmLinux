@@ -1,0 +1,7 @@
+# src handled log
+# I get the src of 2.6.11
+
+# delete file in arc folder{
+	# alpha
+	# 
+}
